@@ -1,0 +1,45 @@
+.form,
+.greetings {
+    display:none;
+    color:white;
+    text-align:center;
+    text-decoration:underline;
+}
+
+.showing {
+    display:block;
+}
+
+.bgImage {
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:-1;
+    animation: fadeIn 0.5s linear;
+}
+
+h1 {
+    color:white;
+    text-align: center;
+    text-decoration:underline;
+}
+
+.js-weather {
+    color:white;
+    object-position:center;
+}
+
+.js-toDoForm {
+    text-align:center;
+}
+
+@keyframes fadeIn {
+    from{
+        capacity: 0;
+    }
+    to {
+        capacity: 1;
+    }
+}
